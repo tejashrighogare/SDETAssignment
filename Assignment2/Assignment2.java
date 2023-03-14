@@ -4,15 +4,15 @@ import java.util.List;
 public class Assignment2{
  public static String destinationCity(List<List<String>> paths)
  {
-	 List<String> out=new LinkedList<>();
-	 List<String> in=new LinkedList<>();
+ List<String> out=new LinkedList<>();
+ List<String> in=new LinkedList<>();
 for(int i=0; i<paths.size();i++)
-	{
-		List<String>Elements=paths.get(i);
-		String outElement=Elements.get(0);
-		String inElement=Elements.get(1);
-		out.add(outElement);
-		in.add(inElement);
+{
+List<String>Elements=paths.get(i);
+String outElement=Elements.get(0);
+String inElement=Elements.get(1);
+out.add(outElement);
+	in.add(inElement);
 	}
  for(int i=0; i<out.size();i++)
  	{
