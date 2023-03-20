@@ -1,11 +1,11 @@
 package Occurances;
-class Animal
+class Animal1
 {  
 void eat()
 {System.out.println("eating...");
 }  
 }  
-class Dog1 extends Animal
+class Dog1 extends Animal1
 {  
 void bark()
 {
