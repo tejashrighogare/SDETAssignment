@@ -19,21 +19,20 @@ class taxSalary {
     public static void taxSalaryCount(double salary) {
         double tax = 0;
         int caseValue = 0;
-        if (salary <= 700000) {
-            System.out.println(tax);
-            return;
-        }
-        if (salary > 700000 && salary <= 1500000)
-            caseValue = ((salary > 700000 && salary <= 1000000) ? 1 : 2);
+        caseValue = (salary <= 700000)?1:(salary > 700000&&salary <= 1000000)?2:(salary > 1000000&&salary <= 1500000)?3:4;
         switch (caseValue) {
-            case 1: {
+            case 1:{
+                tax=0;break;
+            }
+            case 2: {
                 tax = (0.15 * (salary - 700000)) + (0.1 * 200000);
                 break;
             }
-            case 2: {
+            case 3: {
                 tax = (0.2 * (salary - 1000000)) + (0.15 * 300000) + (0.1 * 200000);
                 break;
             }
+
             default: {
                 tax = (0.3 * (salary - 1500000)) + (0.2 * 500000) + (0.15 * 300000) + (0.1 * 200000);
                 break;
