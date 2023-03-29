@@ -1,0 +1,10 @@
+
+Input = swapEnds([1, 2, 3, 7])
+OutPut = [7, 2, 3, 1]
+
+Input = swapEnds([1, 2, 3])
+OutPut = [3, 2, 1]
+
+Input = swapEnds([1, 6, 7, 9, 8])
+OutPut = [1, 6, 7, 9, 8]
+
