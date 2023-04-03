@@ -1,5 +1,4 @@
 package occurances;
-
 import java.util.*;
 public class HashMap {
     //Write program for hashMap

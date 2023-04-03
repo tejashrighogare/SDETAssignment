@@ -1,7 +1,5 @@
 package SwapPrimeNo;
-
 import java.util.*;
-
 public class SwapPrimeNo {
     /*
     Q3. Given an array of ints, swap the first and last elements in the array. Return the modified array.
