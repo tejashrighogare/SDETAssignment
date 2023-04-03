@@ -1,9 +1,9 @@
 package Occurances;
 
-interface interfaceClass {
+interface InterfaceClass {
     void print();
 }
-class Mainclass implements interfaceClass {
+class Mainclass implements InterfaceClass {
     public void print() {
         System.out.println("Hello");
     }
