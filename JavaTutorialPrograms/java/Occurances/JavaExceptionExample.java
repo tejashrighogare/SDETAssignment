@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 public class JavaExceptionExample {
    public static void functionOfTry(int number)
    {

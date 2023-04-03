@@ -1,5 +1,5 @@
-package Occurances;
-class Datatypes {
+package occurances;
+public class Datatypes {
     //Write program for datatypes in java
     public static void main(String[] args) {
         boolean flag = true;

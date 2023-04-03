@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 public class SortNumber {
     static int length;
     public static void printArray(int[] array) {

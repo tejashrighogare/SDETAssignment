@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 import java.util.*;
 public class TreeSet {
     //Write program for treeset

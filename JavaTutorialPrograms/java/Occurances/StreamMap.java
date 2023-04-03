@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 import java.util.*;
 import java.util.stream.Collectors;
 public class StreamMap {

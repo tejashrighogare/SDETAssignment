@@ -1,8 +1,5 @@
-package Occurances;
-abstract class AbstarctClass {
-    abstract void run();
-}
-class SimpleClass extends AbstarctClass {
+package abstractClassExample;
+public class SimpleClass extends AbstarctClass {
     void run() {
         System.out.println("Running safely");
     }

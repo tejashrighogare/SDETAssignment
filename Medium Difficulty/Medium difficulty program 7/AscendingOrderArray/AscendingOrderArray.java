@@ -11,12 +11,12 @@ public class AscendingOrderArray {
     public static void ascendingOrderArrayFunction(int[] inputArrayElement) {
         for (int i = 0; i < inputArrayElement.length - 1; i++) {
             for (int j = i + 1; j < inputArrayElement.length; j++) {
-                int max = 0;
+                int maximum = 0;
                 String tempResult = "";
                 if (inputArrayElement[i] > inputArrayElement[j]) {
-                    max = inputArrayElement[i];
+                    maximum = inputArrayElement[i];
                     inputArrayElement[i] = inputArrayElement[j];
-                    inputArrayElement[j] = max;
+                    inputArrayElement[j] = maximum;
                 }
             }
         }

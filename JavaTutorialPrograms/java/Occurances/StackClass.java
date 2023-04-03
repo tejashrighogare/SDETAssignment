@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 import java.util.Stack;
 public class StackClass {
     //Write program for stack in Java

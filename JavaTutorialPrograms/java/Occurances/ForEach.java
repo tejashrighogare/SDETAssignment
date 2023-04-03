@@ -1,5 +1,4 @@
-
-package Occurances;
+package occurances;
 public class ForEach {
     //Write program for foreach loop
     public static void main(String[] args) {

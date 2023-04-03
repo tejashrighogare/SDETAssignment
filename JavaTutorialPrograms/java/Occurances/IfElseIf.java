@@ -1,16 +1,16 @@
-package Occurances;
+package occurances;
 public class IfElseIf {
     //Write program for if Else if
     public static void main(String[] args) {
-        String city = "Delhi";
-        if (city == "Meerut") {
+        String cityName = "Delhi";
+        if (cityName == "Meerut") {
             System.out.println("city is meerut");
-        } else if (city == "Noida") {
+        } else if (cityName == "Noida") {
             System.out.println("city is noida");
-        } else if (city == "Agra") {
+        } else if (cityName == "Agra") {
             System.out.println("city is agra");
         } else {
-            System.out.println(city);
+            System.out.println(cityName);
         }
     }
 }

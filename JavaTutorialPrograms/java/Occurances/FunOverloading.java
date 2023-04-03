@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 public class FunOverloading {
     //Program for functionOverloading
     public static void main(String[] args) {

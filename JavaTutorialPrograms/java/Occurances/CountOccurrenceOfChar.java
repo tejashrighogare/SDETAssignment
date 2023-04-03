@@ -1,30 +1,30 @@
-package Occurances;
+package occurances;
 public class CountOccurrenceOfChar {
     //Write a prgram to find the character occurances of given string
     public static void main(String[] args) {
-        boolean result = sameOccurrence_new("abcdabcd");
+        boolean result = countOccurrence("abcdabcd");
         if (result == true)
             System.out.println("All characters having equal number of occurances");
         else
             System.out.println("All characters not having equal number of occurances");
     }
-    public static boolean sameOccurrence_new(String inputString) {
+    public static boolean countOccurrence(String inputString) {
         boolean result = true;
-        int firstOccCount = 1;
+        int firstCount = 1;
         for (int counter = 0; counter < inputString.length(); counter++) {
-            char c = inputString.charAt(counter);
-            int tempOccCount = 1;
+            char character = inputString.charAt(counter);
+            int tempCount = 1;
             for (int i = 0; i < inputString.length(); i++) {
                 if (counter == i)
                     continue;
-                if (c == inputString.charAt(i)) {
+                if (character == inputString.charAt(i)) {
                     if (counter == 0) {
-                        firstOccCount++;
+                        firstCount++;
                     }
-                    tempOccCount++;
+                    tempCount++;
                 }
             }
-            if (firstOccCount != tempOccCount) {
+            if (firstCount != tempCount) {
                 result = false;
                 return result;
             }

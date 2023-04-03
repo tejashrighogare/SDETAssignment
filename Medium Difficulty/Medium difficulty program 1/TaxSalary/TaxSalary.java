@@ -1,6 +1,5 @@
 package TaxSalary;
-
-class TaxSalary {
+public class TaxSalary {
     /*
     Q.1 Write a java program to find tax for employee. The program should
     calculate the income tax to be paid by the employee as per the criteria given below:
@@ -16,7 +15,6 @@ class TaxSalary {
     public static void main(String[] args) {
         taxSalaryCount(1000000);
     }
-
     public static void taxSalaryCount(int salary) {
         double tax = 0;
         int caseValue = 0;

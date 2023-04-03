@@ -1,18 +1,16 @@
-package Occurances;
+package occurances;
 import java.util.*;
 public class FindDestination {
     public static String destinationCity(List<List<String>> listInput) {
         List<String> outElemetsList = new ArrayList<>();
         List<String> inElementsList = new ArrayList<>();
-        for (List<String> list : listInput)
-        {
+        for (List<String> list : listInput) {
             String outElement = list.get(0);
             String inElement = list.get(1);
             outElemetsList.add(outElement);
             inElementsList.add(inElement);
         }
-        for (String stringElement : inElementsList)
-        {
+        for (String stringElement : inElementsList) {
             String inElement = stringElement;
             if (!outElemetsList.contains(inElement)) {
                 return inElement;

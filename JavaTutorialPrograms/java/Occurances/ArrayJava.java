@@ -1,4 +1,4 @@
-package Occurances;
+package occurances;
 public class ArrayJava {
     //Write program for Array
     public static void main(String[] args) {
