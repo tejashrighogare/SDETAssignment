@@ -1,4 +1,4 @@
-package taxSalary;
+package TaxSalary;
 
 class taxSalary {
     /*

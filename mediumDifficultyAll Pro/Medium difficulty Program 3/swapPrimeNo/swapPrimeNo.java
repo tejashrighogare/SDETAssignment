@@ -1,8 +1,8 @@
-package swapPrimeNo;
+package SwapPrimeNo;
 
 import java.util.*;
 
-public class swapPrimeNo {
+public class SwapPrimeNo {
     /*
     Q3. Given an array of ints, swap the first and last elements in the array. Return the modified array.
      If the last array value is prime no.

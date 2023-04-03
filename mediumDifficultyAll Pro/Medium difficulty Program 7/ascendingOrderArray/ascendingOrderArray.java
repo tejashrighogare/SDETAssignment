@@ -1,6 +1,6 @@
-package ascendingOrderArray;
+package AscendingOrderArray;
 import java.util.*;
-public class ascendingOrderArray {
+public class AscendingOrderArray {
     /*
     Q7. Write a program to sort the array in ascending order without using collections.
      */
