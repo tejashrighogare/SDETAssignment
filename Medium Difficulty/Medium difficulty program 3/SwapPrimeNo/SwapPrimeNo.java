@@ -11,12 +11,12 @@ public class SwapPrimeNo {
         int[] inputArray = {1, 2, 3, 7};
         int[] inputArraySecond = {1, 2, 3};
         int[] inputArrayThird = {1, 6, 7, 9, 8};
-        SwapPrimeNumber(inputArray);
-        SwapPrimeNumber(inputArraySecond);
-        SwapPrimeNumber(inputArrayThird);
+        swapPrimeNumber(inputArray);
+        swapPrimeNumber(inputArraySecond);
+        swapPrimeNumber(inputArrayThird);
     }
 
-    public static void SwapPrimeNumber(int[] inputArray) {
+    public static void swapPrimeNumber(int[] inputArray) {
         int lastElement = inputArray[inputArray.length - 1];
         if (lastElement % 2 != 0) {
             int temporary = 0;
