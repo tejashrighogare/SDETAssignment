@@ -15,7 +15,7 @@ public class StackClass {
         System.out.println("Elements in Stack: " + stackObject);
         stackObject.pop();
         stackObject.pop();
-        System.out.println(" after pop() Elements in Stack: " + stackObject);
+        System.out.println("After pop() Elements in Stack: " + stackObject);
         result = stackObject.empty();
         System.out.println("Is the stack empty? " + result);
     }

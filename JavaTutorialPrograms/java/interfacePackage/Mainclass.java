@@ -2,7 +2,7 @@ package interfacePackage;
 
 public class Mainclass implements InterfaceClass {
     public void interfaceMethod() {
-        System.out.println("Hello");
+        System.out.println("Interface method");
     }
 
     //Write program for Interface

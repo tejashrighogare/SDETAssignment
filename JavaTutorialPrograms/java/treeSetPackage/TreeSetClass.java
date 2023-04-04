@@ -10,8 +10,12 @@ public class TreeSetClass {
         treeSetObject.add("Vijay");
         treeSetObject.add("Ajay");
         treeSetObject.add("Sujay");
+        displayTreeSet(treeSetObject);
+    }
+
+    public static void displayTreeSet(TreeSet<String> treeSetObject) {
         Iterator<String> iterator = treeSetObject.iterator();
-        while (treeSetObject.iterator().hasNext()) {
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }

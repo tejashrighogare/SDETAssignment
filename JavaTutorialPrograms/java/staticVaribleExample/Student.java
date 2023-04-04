@@ -10,7 +10,7 @@ public class Student {
         name = studentName;
     }
 
-    void display() {
+    void displayStudentDetails() {
         System.out.println(rollno + " " + name + " " + staticVariable);
     }
 }
