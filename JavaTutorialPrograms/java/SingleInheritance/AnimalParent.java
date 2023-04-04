@@ -1,6 +1,6 @@
-package multilevelExample;
+package SingleInheritance;
 
-public class AnimalClass {
+public class AnimalParent {
     public void eat() {
         System.out.println("eating...");
     }

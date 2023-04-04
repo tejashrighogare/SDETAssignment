@@ -1,13 +1,13 @@
 package interfacePackage;
 
-public class Mainclass implements InterfaceClass {
+public class InterfaceMain implements InterfaceProgram {
     public void interfaceMethod() {
         System.out.println("Interface method");
     }
 
     //Write program for Interface
     public static void main(String[] args) {
-        Mainclass object = new Mainclass();
-        object.interfaceMethod();
+        InterfaceMain Interfaceobject = new InterfaceMain();
+        Interfaceobject.interfaceMethod();
     }
 }

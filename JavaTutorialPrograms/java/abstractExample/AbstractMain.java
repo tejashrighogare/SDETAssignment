@@ -1,10 +1,10 @@
-package abstractClassExample;
+package abstractExample;
 
-public class SimpleClass extends AbstarctClass {
+public class AbstractMain extends AbstarctProgram {
     //Write sample program for abstract class
     public static void main(String args[]) {
-        SimpleClass classObject = new SimpleClass();
-        classObject.abstractMethod();
+        AbstractMain AbstarctObject = new AbstractMain();
+        AbstarctObject.abstractMethod();
     }
 
     public void abstractMethod() {

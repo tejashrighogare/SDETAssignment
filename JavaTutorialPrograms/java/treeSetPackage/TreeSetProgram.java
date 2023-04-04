@@ -2,7 +2,7 @@ package treeSetPackage;
 
 import java.util.*;
 
-public class TreeSetClass {
+public class TreeSetProgram {
     //Write program for treeset
     public static void main(String[] args) {
         TreeSet<String> treeSetObject = new TreeSet<String>();

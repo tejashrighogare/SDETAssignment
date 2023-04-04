@@ -1,8 +1,8 @@
-package stackClass;
+package stackExample;
 
 import java.util.Stack;
 
-public class StackClass {
+public class StackProgram {
     //Write program for stack in Java
     public static void main(String[] args) {
         Stack<Integer> stackObject = new Stack<>();

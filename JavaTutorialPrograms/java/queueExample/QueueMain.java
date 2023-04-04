@@ -1,6 +1,6 @@
 package queueExample;
 
-public class QueueClass {
+public class QueueMain {
     //Write program for Queue in Java
     public static void main(String[] args) {
         Queue queueObject = new Queue(4);

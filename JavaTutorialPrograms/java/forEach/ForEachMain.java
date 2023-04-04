@@ -1,6 +1,6 @@
 package forEach;
 
-public class MainClass {
+public class ForEachMain {
     //Write program for ForEach
     public static void main(String[] args) {
         int inputArray[] = {12, 13, 14, 44};

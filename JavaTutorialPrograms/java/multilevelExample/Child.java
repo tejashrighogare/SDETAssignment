@@ -1,6 +1,6 @@
 package multilevelExample;
 
-public class ChildClass extends DogClass {
+public class Child extends Dog {
     public void weep() {
         System.out.println("weeping...");
     }

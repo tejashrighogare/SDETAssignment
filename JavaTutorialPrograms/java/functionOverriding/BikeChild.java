@@ -1,8 +1,8 @@
 package functionOverriding;
 
-public class BikeChildClass extends VehicalMainClass {
+public class BikeChild extends VehicalMain {
     public static void main(String args[]) {
-        BikeChildClass bikeObject = new BikeChildClass();
+        BikeChild bikeObject = new BikeChild();
         bikeObject.vehicalRun();
     }
 

@@ -5,12 +5,12 @@ public class Student {
     String name;
     static String staticVariable = "ITS";
 
-    Student(int studentRollNo, String studentName) {
+    public Student(int studentRollNo, String studentName) {
         rollno = studentRollNo;
         name = studentName;
     }
 
-    void displayStudentDetails() {
+    public void displayStudentDetails() {
         System.out.println(rollno + " " + name + " " + staticVariable);
     }
 }
