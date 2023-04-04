@@ -1,9 +1,7 @@
 package patterns;
 
 public class Patterns {
-    /*
-     Q2 Java program to print the following pattern
-    */
+    //Q2 Java program to print the following pattern
     public static void main(String args[]) {
         patternNumber(4);
     }
