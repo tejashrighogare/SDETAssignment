@@ -1,6 +1,7 @@
 package inheritanceExample;
+
 public class Dog extends Animal {
-    void bark() {
+    public void bark() {
         System.out.println("barking...");
     }
 }

@@ -1,13 +1,16 @@
 package queueExample;
+
 public class Queue {
-    private static int front, rear, capacity;
-    private static int queue[];
-    Queue(int size) {
+    public static int front, rear, capacity;
+    public static int queue[];
+
+    public Queue(int size) {
         front = rear = 0;
         capacity = size;
         queue = new int[capacity];
     }
-    void queueEnqueue(int item) {
+
+    public void queueEnqueue(int item) {
         if (capacity == rear) {
             System.out.printf("\nQueue is full\n");
             return;
@@ -17,7 +20,8 @@ public class Queue {
         }
         return;
     }
-    void queueDequeue() {
+
+    public void queueDequeue() {
         if (front == rear) {
             System.out.printf("\nQueue is empty\n");
             return;
@@ -31,7 +35,8 @@ public class Queue {
         }
         return;
     }
-    void queueDisplay() {
+
+    public void queueDisplay() {
         int variable;
         if (front == rear) {
             System.out.printf("Queue is Empty\n");

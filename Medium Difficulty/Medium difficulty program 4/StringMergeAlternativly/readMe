@@ -1,6 +1,0 @@
-Input = mixString("abc", "xyz")
-OutPut = "axbycz"
-
-Input = mixString("Hi", "There")
-OutPut = "HTihere"
-

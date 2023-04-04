@@ -1,6 +1,7 @@
 package multilevelExample;
+
 public class AnimalClass {
-    void eat() {
+    public void eat() {
         System.out.println("eating...");
     }
 }

@@ -1,4 +1,5 @@
 package inheritanceExample;
+
 public class HierarchicalInheritance {
     //Write program for hirarchical Inheritance
     public static void main(String args[]) {

@@ -1,6 +1,7 @@
 package SingleInheritance;
+
 public class AnimalClassParent {
-    void eat() {
+    public void eat() {
         System.out.println("eating...");
     }
 }

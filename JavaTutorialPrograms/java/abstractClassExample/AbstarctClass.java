@@ -1,4 +1,5 @@
 package abstractClassExample;
+
 public abstract class AbstarctClass {
-    abstract void run();
+    public abstract void abstractMethod();
 }

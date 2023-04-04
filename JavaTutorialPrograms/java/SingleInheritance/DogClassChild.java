@@ -1,6 +1,7 @@
 package SingleInheritance;
+
 public class DogClassChild extends AnimalClassParent {
-    void bark() {
+    public void bark() {
         System.out.println("barking...");
     }
 }

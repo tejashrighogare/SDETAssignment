@@ -1,17 +1,18 @@
 package queueExample;
+
 public class QueueClass {
     //Write program for Queue in Java
     public static void main(String[] args) {
-        Queue queueobj = new Queue(4);
-        queueobj.queueEnqueue(10);
-        queueobj.queueEnqueue(30);
-        queueobj.queueEnqueue(50);
-        queueobj.queueEnqueue(70);
+        Queue queueObject = new Queue(4);
+        queueObject.queueEnqueue(10);
+        queueObject.queueEnqueue(30);
+        queueObject.queueEnqueue(50);
+        queueObject.queueEnqueue(70);
         System.out.println("Queue after Enqueue Operation:");
-        queueobj.queueDisplay();
-        queueobj.queueDequeue();
-        queueobj.queueDequeue();
+        queueObject.queueDisplay();
+        queueObject.queueDequeue();
+        queueObject.queueDequeue();
         System.out.println("\nQueue after two dequeue operations:");
-        queueobj.queueDisplay();
+        queueObject.queueDisplay();
     }
 }

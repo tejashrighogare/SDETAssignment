@@ -1,4 +1,5 @@
 package staticVaribleExample;
+
 public class StaticVariableClass {
     public static void main(String args[]) {
         Student studentOne = new Student(111, "Karan");

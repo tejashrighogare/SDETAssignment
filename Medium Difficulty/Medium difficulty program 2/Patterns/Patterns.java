@@ -1,4 +1,5 @@
-package Patterns;
+package patterns;
+
 public class Patterns {
     /*
      Q2 Java program to print the following pattern
@@ -6,17 +7,19 @@ public class Patterns {
     public static void main(String args[]) {
         patternNumber(4);
     }
+
     public static void patternNumber(int rows) {
-        for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= rows - i; j++) {
+        for (int rowCounter = 1; rowCounter <= rows; rowCounter++) {
+            for (int spaceCounter = 1; spaceCounter <= rows - rowCounter; spaceCounter++) {
                 System.out.print(" ");
             }
-            for (int k = i; k >= 1; k--) {
-                System.out.print(k);
+            for (int columnCounterLeft = rowCounter; columnCounterLeft >= 1; columnCounterLeft--) {
+                System.out.print(columnCounterLeft);
             }
-            for (int l = 2; l <= i; l++) {
-                System.out.print(l);
+            for (int columnCounterRight = 2; columnCounterRight <= rowCounter; columnCounterRight++) {
+                System.out.print(columnCounterRight);
             }
+            System.out.print("\n");
         }
     }
 }

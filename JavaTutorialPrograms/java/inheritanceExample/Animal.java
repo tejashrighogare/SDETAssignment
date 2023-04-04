@@ -1,6 +1,7 @@
 package inheritanceExample;
+
 public class Animal {
-    void eat() {
+    public void eat() {
         System.out.println("eating...");
     }
 }
