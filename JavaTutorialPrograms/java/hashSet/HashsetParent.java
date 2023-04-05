@@ -2,7 +2,7 @@ package hashSet;
 
 import java.util.*;
 
-public class Hashset {
+public class HashsetParent {
     //Write program for hashset
     public static void main(String[] args) {
         HashSet<String> hashsetObject = new HashSet<String>();
