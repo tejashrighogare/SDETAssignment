@@ -1,9 +1,9 @@
 package staticVaribleExample;
 
 public class Student {
-    int rollno;
-    String name;
-    static String staticVariable = "ITS";
+    private int rollno;
+    private String name;
+    private static String staticVariable = "ITS";
 
     public Student(int studentRollNo, String studentName) {
         rollno = studentRollNo;

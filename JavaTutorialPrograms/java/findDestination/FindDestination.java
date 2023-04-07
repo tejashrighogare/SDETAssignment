@@ -4,21 +4,12 @@ import java.util.*;
 
 public class FindDestination {
     public static void main(String args[]) {
-        List<List<String>> cityList = new ArrayList<>();
-        List<String> listItemFirst = new ArrayList<>();
-        listItemFirst.add("London");
-        listItemFirst.add("New York");
-        List<String> listItemSecond = new ArrayList<>();
-        listItemSecond.add("New York");
-        listItemSecond.add("Lima");
-        List<String> listItemThird = new ArrayList<>();
-        listItemThird.add("Lima");
-        listItemThird.add("Sao Paulo");
-        cityList.add(listItemFirst);
-        cityList.add(listItemSecond);
-        cityList.add(listItemThird);
-        String returnDestination = printDestinationCity(cityList);
-        System.out.println(returnDestination);
+        List<List<String>> inputCity = new ArrayList<>();
+        inputCity.add(Arrays.asList("London", "New York"));
+        inputCity.add(Arrays.asList("New York", "Lima"));
+        inputCity.add(Arrays.asList("Lima", "Sao Paulo"));
+        String returnDestination = printDestinationCity(inputCity);
+        System.out.println("Destination City is : " + returnDestination);
     }
 
     public static String printDestinationCity(List<List<String>> listInput) {
@@ -31,9 +22,8 @@ public class FindDestination {
             inElementsList.add(inElement);
         }
         for (String stringElement : inElementsList) {
-            String inElement = stringElement;
-            if (!outElemetsList.contains(inElement)) {
-                return inElement;
+            if (!outElemetsList.contains(stringElement)) {
+                return stringElement;
             }
         }
         return null;

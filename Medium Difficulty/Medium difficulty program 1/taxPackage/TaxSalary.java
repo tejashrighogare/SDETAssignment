@@ -13,10 +13,11 @@ public class TaxSalary {
     Result: - income tax is …………………………….
     */
     public static void main(String[] args) {
-        taxSalaryCount(1000000);
+        TaxSalary taxSalaryObject=new TaxSalary();
+        taxSalaryObject.taxSalaryCount(1000000);
     }
 
-    public static void taxSalaryCount(int salary) {
+    public void taxSalaryCount(int salary) {
         double taxAmount = 0;
         int caseValue = 0;
         caseValue = (salary <= 700000) ? 1 : (salary > 700000 && salary <= 1000000) ? 2 : (salary > 1000000 && salary <= 1500000) ? 3 : 4;
@@ -33,10 +34,12 @@ public class TaxSalary {
                 taxAmount = (0.2 * (salary - 1000000)) + (0.15 * 300000) + (0.1 * 200000);
                 break;
             }
-            default: {
+            case 4: {
                 taxAmount = (0.3 * (salary - 1500000)) + (0.2 * 500000) + (0.15 * 300000) + (0.1 * 200000);
                 break;
             }
+            default:
+                System.out.println("Invalide input");
         }
         System.out.println("Income tax is = " + Math.round(taxAmount));
     }

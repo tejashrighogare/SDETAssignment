@@ -1,8 +1,8 @@
 package queueExample;
 
 public class Queue {
-    public static int front, rear, capacity;
-    public static int queue[];
+    private static int front, rear, capacity;
+    private static int queue[];
 
     public Queue(int size) {
         front = rear = 0;

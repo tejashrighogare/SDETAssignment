@@ -1,5 +1,7 @@
 package sortNumber;
 
+import java.util.*;
+
 public class SortNumber {
     //Write program for sort number
     public static void main(String[] args) {
@@ -13,10 +15,7 @@ public class SortNumber {
     static int length;
 
     public static void printArray(int[] array) {
-        for (int counter = 0; counter < length; counter++) {
-            System.out.print(array[counter] + " ");
-        }
-        System.out.println();
+        System.out.println(Arrays.toString(array));
     }
 
     public static void sortArray(int[] array) {
