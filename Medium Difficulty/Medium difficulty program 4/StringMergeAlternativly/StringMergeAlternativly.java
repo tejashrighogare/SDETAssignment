@@ -1,4 +1,5 @@
 package StringMergeAlternativly;
+
 public class StringMergeAlternativly {
     /*
     Q4. Given two strings, a and b, create a bigger string made of the first char of a, the first char of b,
