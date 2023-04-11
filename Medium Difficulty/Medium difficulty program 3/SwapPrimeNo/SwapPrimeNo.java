@@ -3,8 +3,6 @@ package swapPrimeNo;
 import java.util.*;
 
 public class SwapPrimeNo {
-    private int temporary;
-
     /*
     Q3. Given an array of ints, swap the first and last elements in the array. Return the modified array.
      If the last array value is prime no.
@@ -38,8 +36,7 @@ public class SwapPrimeNo {
         if (number % counter == 0) {
             return false;
         }
-        if (counter * counter > number)
-            return true;
+        if (counter * counter > number) return true;
         return swapPrimeNumber(number, counter + 1);
     }
 }
