@@ -19,7 +19,6 @@ public class StringMergeAlternativly {
         for (int counter = 0; counter < firstString.length() || counter < secondString.length(); counter++) {
             if (counter < firstString.length())
                 mergeString += firstString.charAt(counter);
-
             if (counter < secondString.length())
                 mergeString += secondString.charAt(counter);
         }
