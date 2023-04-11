@@ -1,0 +1,10 @@
+Input = mergeStringAlternatively("abc", "xyz")
+OutPut = "axbycz"
+
+Input = mergeStringAlternatively("Hi", "There")
+OutPut = "HTihere"
+
+Input = mergeStringAlternatively("xxxx", "There")
+Output = xTxhxexre
+
+
