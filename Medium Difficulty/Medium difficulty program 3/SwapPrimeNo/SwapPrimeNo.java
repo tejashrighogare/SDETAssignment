@@ -22,9 +22,9 @@ public class SwapPrimeNo {
     public static void printResult(int[] inputArray, int lastNumber) {
         if (swapPrimeNumber(lastNumber, 2) || lastNumber == 0 || lastNumber == 1) {
             System.out.println("Array last element is : " + lastNumber + " And Number is prime");
-            int temporary = inputArray[0];
+            int temporaryNumber = inputArray[0];
             inputArray[0] = lastNumber;
-            inputArray[inputArray.length - 1] = temporary;
+            inputArray[inputArray.length - 1] = temporaryNumber;
             System.out.println("new array is : " + Arrays.toString(inputArray));
         } else {
             System.out.println("Last number of array is : " + lastNumber + " is not prime so not swapped");
