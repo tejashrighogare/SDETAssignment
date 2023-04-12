@@ -1,0 +1,8 @@
+Input = mirrorEnds("abXYZba")
+OutPut = ab
+
+Input = mirrorEnds("abca")
+OutPut = a
+
+Input = mirrorEnds("aba")
+OutPut = a
