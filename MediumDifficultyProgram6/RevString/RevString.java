@@ -5,12 +5,10 @@ public class RevString {
     Q6. Write a program to reverse the string without changing the position of special character.
  */
     public static void main(String[] args) {
-        String result = reverseString("Ro@hitshetty@");
+        String result = reverseString("Ro@hitshetty");
         System.out.println(result);
-        result = reverseString("Ro@hitshetty");
-        System.out.println(result);
-    }
 
+    }
     static String reverseString(String inputString) {
         String result = "";
         int reverseCharacterCounter = 0;
