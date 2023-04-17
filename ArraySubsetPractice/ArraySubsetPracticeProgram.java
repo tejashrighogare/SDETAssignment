@@ -5,8 +5,11 @@ import java.util.*;
 public class ArraySubsetPracticeProgram {
     public static void main(String[] args) {
         int[] arrayInput = {1, 2, 3};
+        int[] arrayInputElement = {0};
         List<List<Integer>> result;
         result = arraySubsets(arrayInput);
+        System.out.println(result);
+        result = arraySubsets(arrayInputElement);
         System.out.println(result);
     }
 
