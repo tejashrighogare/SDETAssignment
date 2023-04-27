@@ -1,6 +1,6 @@
 package armstrongNumber;
 
-public class armstrongNumberProgram {
+public class ArmstrongNumberProgram {
     public static void isArmstrong(int number) {
         int originalNumber, remainder, result = 0;
         originalNumber = number;
