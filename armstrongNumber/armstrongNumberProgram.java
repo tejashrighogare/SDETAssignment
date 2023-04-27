@@ -1,12 +1,14 @@
 package armstrongNumber;
 
 public class ArmstrongNumberProgram {
-    public static void isArmstrong(int number) {
-        int originalNumber, remainder, result = 0;
+
+    public void isArmstrong(int number) {
+
+        int originalNumber = number, result = 0;
         originalNumber = number;
         while (originalNumber != 0) {
-            remainder = originalNumber % 10;
-            result += remainder * remainder * remainder;
+            int remainder = originalNumber % 10;
+            result += Math.pow(remainder, String.valueOf(number).length());
             originalNumber /= 10;
         }
         if (result == number)
@@ -16,9 +18,10 @@ public class ArmstrongNumberProgram {
     }
 
     public static void main(String args[]) {
+        ArmstrongNumberProgram armstrongNumberObject = new ArmstrongNumberProgram();
         int number = 407;
-        isArmstrong(number);
+        armstrongNumberObject.isArmstrong(number);
         number = 131;
-        isArmstrong(number);
+        armstrongNumberObject.isArmstrong(number);
     }
 }
