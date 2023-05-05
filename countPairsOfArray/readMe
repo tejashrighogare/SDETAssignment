@@ -1,0 +1,6 @@
+Input = arrayElement = { 1, 5, 7, -1, 6 };
+                 sum =4
+Output = Count of pairs is 1
+Input = arrayElement{1, 5, 7, -1, 5},
+          sum = 6
+Output :  Count of pairs is 3
