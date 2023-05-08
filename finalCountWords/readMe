@@ -1,0 +1,4 @@
+input = "This this is is done by Tejashri Tejashri";
+Output = {Tejashri=2, by=1, this=1, This=1, is=2, done=1}
+input = "This is Java Program";
+Output = {Java=1, Program=1, This=1, is=1}
