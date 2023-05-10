@@ -7,14 +7,14 @@ public class TrianglePatternProgram {
     }
 
     public static void trianglePattern(int number) {
-        for (int rows = 0; rows <= number - 1; rows++) {
-            for (int column = 0; column <= rows; column++) {
+        for (int rowCounter = 0; rowCounter <= number - 1; rowCounter++) {
+            for (int columnCounter = 0; columnCounter <= rowCounter; columnCounter++) {
                 System.out.print("*" + " ");
             }
             System.out.println("");
         }
-        for (int rows = number - 1; rows >= 0; rows--) {
-            for (int column = 0; column <= rows - 1; column++) {
+        for (int rowsCounter = number - 1; rowsCounter >= 0; rowsCounter--) {
+            for (int columnsCounter = 0; columnsCounter <= rowsCounter - 1; columnsCounter++) {
                 System.out.print("*" + " ");
             }
             System.out.println("");
