@@ -16,7 +16,6 @@ public class MedianOfArrayProgram {
             int middleNumber = arrayLength / 2;
             int middleArrayNum = inputArray[middleNumber];
             int previousNumber = inputArray[middleNumber - 1];
-
             int MedianNumber = (middleArrayNum + previousNumber) / 2;
             return MedianNumber;
         } else {
