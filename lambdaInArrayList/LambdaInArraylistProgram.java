@@ -3,6 +3,7 @@ package lambdaInArrayList;
 import java.util.*;
 
 public class LambdaInArraylistProgram {
+    //Java ArrayList Program to remove elements of Arraylist using lambda function.
     public static void main(String[] args) {
         ArrayList<String> arrayListObject = new ArrayList<String>();
         arrayListObject.add("Anil");
