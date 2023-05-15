@@ -1,0 +1,4 @@
+Input = inputNumber = 12321
+Output = Number : 12321 is a palindrome
+Input = inputNumber = 179
+Output = Number : 179 is not a palindrome
