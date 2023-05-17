@@ -1,12 +1,14 @@
 package findDuplicatecharacters;
 
 import java.util.*;
+
 public class FindDuplicateCharactersProgram {
-  //Write a Java program that prints the duplicate characters from the string with its count
+    //Write a Java program that prints the duplicate characters from the string with its count
     public static void main(String[] args) {
         String inputString = "My name is Tejashri Ghogare!";
         printDuplicates(inputString);
     }
+
     public static void printDuplicates(String inputString) {
         int counter = 0;
         ArrayList<Character> characterList = new ArrayList<>();
