@@ -13,8 +13,8 @@ public class TrianglePatternProgram {
             }
             System.out.println("");
         }
-        for (int rowindex = number - 1; rowindex >= 0; rowindex--) {
-            for (int columnindex = 0; columnindex <= rowindex - 1; columnindex++) {
+        for (int rowIndex = number - 1; rowIndex >= 0; rowIndex--) {
+            for (int columnIndex = 0; columnIndex <= rowIndex - 1; columnIndex++) {
                 System.out.print("*" + " ");
             }
             System.out.println("");
