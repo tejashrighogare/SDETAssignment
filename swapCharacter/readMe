@@ -1,7 +1,0 @@
-Input = inputString = "ABCDEFGH";
-        int swapNumber = 4;
-        int count = 3;
-Output = after 0 index swap DBCAEFGH
-         after 1 index swap DECABFGH
-         after 2 index swap DEFABCGH
-         after 3 index swap DEFGBCAH
