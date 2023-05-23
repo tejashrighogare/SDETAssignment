@@ -1,16 +1,16 @@
 import java.util.*;
 
 public class InsertionSort {
-    void insertionSort(int array[]) {
+    public void insertionSort(int array[]) {
         int arraySize = array.length;
         for (int index = 1; index < arraySize; index++) {
-            int keyValue = array[index];
+            int arrayIndexValue = array[index];
             int subIndex = index - 1;
-            while (subIndex >= 0 && keyValue < array[subIndex]) {
+            while (subIndex >= 0 && arrayIndexValue < array[subIndex]) {
                 array[subIndex + 1] = array[subIndex];
                 --subIndex;
             }
-            array[subIndex + 1] = keyValue;
+            array[subIndex + 1] = arrayIndexValue;
         }
     }
 
