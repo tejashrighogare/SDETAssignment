@@ -1,0 +1,7 @@
+Input = ArrayList element {"Anil", "Vijay", "Ajay", "Ankt", "Shivam"}
+Output = An initial list of elements: [Anil, Vijay, Ajay, Ankt, Shivam]
+         After invoking remove(object) method: [Anil, Ajay, Ankt, Shivam]
+         After invoking remove(index) method: [Ajay, Ankt, Shivam]
+         Updated list : [Ravi, Hanumant]
+         After invoking removeAll() method: [Ajay, Ankt, Shivam]
+         After invoking removeIf() method using lambda function: [Ankt, Shivam]
