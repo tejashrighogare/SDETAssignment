@@ -10,12 +10,12 @@ public class CheckPalindromeProgram {
     }
 
     public static void isPalindrome(int inputNumber) {
-        int palindrome = inputNumber;
+        int palindromeNumber = inputNumber;
         int reverseNumber = 0;
-        while (palindrome != 0) {
-            int remainder = palindrome % 10;
+        while (palindromeNumber != 0) {
+            int remainder = palindromeNumber % 10;
             reverseNumber = reverseNumber * 10 + remainder;
-            palindrome = palindrome / 10;
+            palindromeNumber = palindromeNumber / 10;
         }
         if (inputNumber == reverseNumber)
             System.out.println("Number : " + inputNumber + " is a palindrome");
