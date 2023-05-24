@@ -1,0 +1,11 @@
+Input = ("Anil", "Vijay", "Anil", "Vijay", "Shiva", "Mahesh","Ram")
+Output =
+Original ArrayList : [Anil, Vijay, Anil, Vijay, Shiva, Mahesh, Ram]
+
+Using LinkedHashSet:
+
+Modified ArrayList : [Anil, Vijay, Shiva, Mahesh, Ram]
+
+Using HashSet:
+
+Modified ArrayList : [Vijay, Mahesh, Shiva, Anil, Ram]
