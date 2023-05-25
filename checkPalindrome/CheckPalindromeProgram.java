@@ -13,9 +13,9 @@ public class CheckPalindromeProgram {
             System.out.println("Not a Palindrome number ");
     }
 
-    int sum = 0, remainder;
+   private int sum = 0, remainder;
 
-    int palindromeOrNot(int inputNumber) {
+   public int palindromeOrNot(int inputNumber) {
         if (inputNumber != 0) {
             remainder = inputNumber % 10;
             sum = (sum * 10) + remainder;
