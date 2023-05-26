@@ -4,6 +4,10 @@ public class CheckPalindromeProgram {
     public static void main(String[] args) {
         //Java program to check if the number is palindrome or not.
         int inputNumber = 12321, temporaryNumber, finalNumber;
+        if (inputNumber < 0) {
+            System.out.println("Number is not pallindrome");
+            return;
+        }
         CheckPalindromeProgram palindromeObject = new CheckPalindromeProgram();
         temporaryNumber = inputNumber;
         finalNumber = palindromeObject.palindromeOrNot(inputNumber);
@@ -16,7 +20,8 @@ public class CheckPalindromeProgram {
    private int sum = 0, remainder;
 
    public int palindromeOrNot(int inputNumber) {
-        if (inputNumber != 0) {
+
+       if (inputNumber != 0) {
             remainder = inputNumber % 10;
             sum = (sum * 10) + remainder;
             inputNumber /= 10;
