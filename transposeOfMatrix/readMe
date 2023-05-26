@@ -1,0 +1,9 @@
+Input =  matrix = {{2, 3, 4}, {5, 6, 4}}
+Output = The matrix is:
+         2    3    4
+         5    6    4
+         The matrix is:
+         2    5
+         3    6
+         4    4
+
