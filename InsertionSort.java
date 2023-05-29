@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * Write a Java program for insertion sort
+ */
 public class InsertionSort {
     public void insertionSort(int array[]) {
         int arraySize = array.length;
