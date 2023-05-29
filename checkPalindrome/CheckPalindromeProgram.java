@@ -1,7 +1,10 @@
 package checkPalindrome;
 
+/**
+ * problem statement:
+ * Java program to check if the number is palindrome or not.
+ */
 public class CheckPalindromeProgram {
-    //Java program to check if the number is palindrome or not.
     public static void main(String[] args) {
         int inputNumber = 12321, temporaryNumber, finalNumber;
         if (inputNumber < 0) {
