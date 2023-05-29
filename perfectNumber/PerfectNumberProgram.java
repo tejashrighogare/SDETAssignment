@@ -1,5 +1,8 @@
 package perfectNumber;
 
+/**
+ * Write a program for Number is a Perfect Number or not
+ */
 public class PerfectNumberProgram {
     public static long isPerfect(long number) {
         long sumOfNumber = 0;
@@ -11,7 +14,6 @@ public class PerfectNumberProgram {
         return sumOfNumber;
     }
 
-    //Write a program for Number is a Perfect Number or not
     public static void main(String args[]) {
         long number = 28, total;
         total = isPerfect(number);
