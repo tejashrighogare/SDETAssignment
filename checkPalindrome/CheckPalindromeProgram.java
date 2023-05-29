@@ -1,8 +1,8 @@
 package checkPalindrome;
 
 public class CheckPalindromeProgram {
+    //Java program to check if the number is palindrome or not.
     public static void main(String[] args) {
-        //Java program to check if the number is palindrome or not.
         int inputNumber = 12321, temporaryNumber, finalNumber;
         if (inputNumber < 0) {
             System.out.println("Number is not pallindrome");
@@ -17,11 +17,11 @@ public class CheckPalindromeProgram {
             System.out.println("Not a Palindrome number ");
     }
 
-   private int sum = 0, remainder;
+    private int sum = 0, remainder;
 
-   public int palindromeOrNot(int inputNumber) {
+    public int palindromeOrNot(int inputNumber) {
 
-       if (inputNumber != 0) {
+        if (inputNumber != 0) {
             remainder = inputNumber % 10;
             sum = (sum * 10) + remainder;
             inputNumber /= 10;
