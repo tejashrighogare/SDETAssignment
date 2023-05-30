@@ -4,16 +4,16 @@ import java.util.*;
  * Write a Java program for insertion sort
  */
 public class InsertionSort {
-    public void insertionSort(int array[]) {
-        int arraySize = array.length;
+    public void insertionSort(int inputArray[]) {
+        int arraySize = inputArray.length;
         for (int index = 1; index < arraySize; index++) {
-            int arrayIndexValue = array[index];
+            int arrayIndexValue = inputArray[index];
             int subIndex = index - 1;
-            while (subIndex >= 0 && arrayIndexValue < array[subIndex]) {
-                array[subIndex + 1] = array[subIndex];
+            while (subIndex >= 0 && arrayIndexValue < inputArray[subIndex]) {
+                inputArray[subIndex + 1] = inputArray[subIndex];
                 --subIndex;
             }
-            array[subIndex + 1] = arrayIndexValue;
+            inputArray[subIndex + 1] = arrayIndexValue;
         }
     }
 
