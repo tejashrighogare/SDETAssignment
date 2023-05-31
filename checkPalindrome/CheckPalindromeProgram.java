@@ -6,7 +6,7 @@ package checkPalindrome;
  */
 public class CheckPalindromeProgram {
     public static void main(String[] args) {
-        int inputNumber = 12321, temporaryNumber, finalNumber;
+        int inputNumber = 121, temporaryNumber, finalNumber;
         if (inputNumber < 0) {
             System.out.println("Number is not pallindrome");
             return;
@@ -25,9 +25,9 @@ public class CheckPalindromeProgram {
     public int palindromeOrNot(int inputNumber) {
 
         if (inputNumber != 0) {
-            remainder = inputNumber % 10;
-            sum = (sum * 10) + remainder;
-            inputNumber /= 10;
+            remainder = inputNumber % 10;  //rem=1,2,1
+            sum = (sum * 10) + remainder;   //sum=1,12,121
+            inputNumber /= 10;              //inputnumber=12,1
             palindromeOrNot(inputNumber);
         }
         return sum;
