@@ -1,8 +1,5 @@
 package fibonicciSeries;
 
-/**
- * Fibonacci Series program in Java
- */
 public class FibonicciSeriesProgram {
     public static void main(String args[]) {
         fibonacciSeries(10);
