@@ -1,0 +1,6 @@
+//Write Java program for multiplication of two matrix
+Input =  matrixA[][] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
+         matrixB[][] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
+Output = 6 6 6
+         12 12 12
+         18 18 18
