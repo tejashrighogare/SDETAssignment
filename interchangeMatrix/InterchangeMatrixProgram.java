@@ -2,8 +2,7 @@ package interchangeMatrix;
 
 public class InterchangeMatrixProgram {
     public static void main(String args[]) {
-        int inputArray[][]
-                = {{2, 9, 8}, {7, 6, 4}, {3, 9, 2}};  //Matrix Declaration and Initialization
+        int inputArray[][] = {{2, 9, 8}, {7, 6, 4}, {3, 9, 2}};
         System.out.println("Original array matrix: ");
         printMatrix(inputArray);
         int columnNo = 1, interchangeColumn = 2;
