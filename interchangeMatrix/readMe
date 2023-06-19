@@ -1,0 +1,17 @@
+/**
+ *  /*Java Program to interchange any two rows and columns*/
+ */
+
+ Input = inputArray[][] = {{2, 9, 8}, {7, 6, 4}, {3, 9, 2}};
+ Output = Original array matrix:
+          2 9 8
+          7 6 4
+          3 9 2
+          After Interchanging Column 1 and 2 :
+          9 2 8
+          6 7 4
+          9 3 2
+          After Interchanging Row 1 and 2 :
+          6 7 4
+          9 2 8
+          9 3 2
